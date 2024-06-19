@@ -1,0 +1,23 @@
+*{
+    padding: 0%;
+    margin: 0;
+    box-sizing: border-box 0;
+}
+.navbar-brand{
+color: rgb(180, 21, 61);
+text-shadow:2px 2px 4px rgba(56, 3, 19, 0.726);
+}
+.imagen-principal{
+    background-image: url(../img/imagenprincipal.avif);
+    height: 70vh;
+}
+h2{
+    color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.212);
+    text-shadow:2px 2px 4px rgba(3, 3, 3, 0.986) ;
+    font-size: 25px;
+    padding: 10px;
+    max-width: 600px;
+    border-radius: 10px;
+    border: 2px solid rgba(255, 255, 255, 0.082);
+}
