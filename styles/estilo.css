@@ -69,12 +69,74 @@ h3, h4, h5 {
     margin-bottom: 0;
 }
 
-.cepas{
-    margin: 0 auto; 
-    max-width: 500px; 
-    padding: 20px;
-
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
 }
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+
+.card-container {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+
+.card {
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.card-text {
+    font-size: 14px;
+}
+
+.card-img-top {
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+/* Estilos específicos por tipo de vino */
+.Malbec {
+    border: 3px solid #6c757d;
+}
+
+.CabernetFranc {
+    border: 3px solid #6c757d;
+}
+
+.CabernetSauvignon {
+    border: 3px solid #6c757d;
+}
+
+.PinotNoir {
+    border: 3px solid #6c757d;
+}
+
+.Chardonnay {
+    border: 3px solid #6c757d;
+}
+
+.PinotGrigrio {
+    border: 3px solid #6c757d;
+}
+
+.SauvignonBlanc {
+    border: 3px solid #6c757d;
+}
+
+.bonarda {
+    border: 3px solid #6c757d;
 .footer {
     background-color: #333; 
     color: #fff; 
