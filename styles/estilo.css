@@ -3,6 +3,9 @@
     margin: 0;
     box-sizing: border-box 0;
 }
+body{
+    background-color: rgb(51, 45, 45);
+}
 .navbar-brand{
 color: rgb(180, 21, 61);
 text-shadow:2px 2px 4px rgba(56, 3, 19, 0.726);
@@ -31,12 +34,54 @@ h2{
     max-width: 940px;
     margin-left: 20px; 
 }
+h3, h4, h5 {
+    color: #555; 
+    margin-top: 20px;
+}
 
 
-.custom-img {
-    width: 100%;
-    height: auto;
-} 
+.historia {
+    background-color: #ffffffc9; 
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); 
+}
+
+.historia p {
+    color: #666;
+    margin-bottom: 15px;
+}
+
+
+.historiaargentina {
+    color: #b4153d; 
+    margin-bottom: 15px;
+}
+
+
+.historia h5 {
+    color: #555; 
+    margin-top: 30px;
+}
+
+.historia h5, .historia p:last-child {
+    margin-bottom: 0;
+}
+.footer {
+    background-color: #333; 
+    color: #fff; 
+    padding: 20px 0; 
+    text-align: center; 
+    position: absolute; 
+    width: 100%; 
+    bottom: 0; 
+}
+
+.footer p {
+    margin: 0; 
+}
+ 
 @media (max-width: 768px) {        
 .row {
  flex-direction: column;
