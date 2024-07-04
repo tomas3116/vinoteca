@@ -107,34 +107,44 @@ body {
 
 .Malbec {
     border: 3px solid #6c757d;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
 }
 
 .CabernetFranc {
     border: 3px solid #6c757d;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
 }
 
 .CabernetSauvignon {
     border: 3px solid #6c757d;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+
 }
 
 .PinotNoir {
     border: 3px solid #6c757d;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+
 }
 
 .Chardonnay {
     border: 3px solid #6c757d;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
 }
 
 .PinotGrigrio {
     border: 3px solid #6c757d;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
 }
 
 .SauvignonBlanc {
     border: 3px solid #6c757d;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
 }
 
 .bonarda {
     border: 3px solid #6c757d;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
 }
 
 .footer {
