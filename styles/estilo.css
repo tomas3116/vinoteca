@@ -10,6 +10,11 @@ body{
 color: rgb(180, 21, 61);
 text-shadow:2px 2px 4px rgba(56, 3, 19, 0.726);
 font-size: 35px;
+display: flex;
+align-items: center;
+}
+.navbar-brand i {
+margin-right: 10px; /* Espacio entre el icono y el texto */
 }
 .imagen-principal{
     background-image: url(../img/imagenprincipal.avif);
@@ -33,6 +38,11 @@ h2{
 .custom-card {
     max-width: 940px;
     margin-left: 20px; 
+}
+.cartabody1{
+    background-color: #555;
+    box-shadow: #b4153d;
+    border-radius: 10%;
 }
 h3, h4, h5 {
     color: #555; 
@@ -82,68 +92,79 @@ body {
 
 .card-container {
     display: grid;
-    gap: 20px;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 80px;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 5fr));
 }
-
+.carta-title{
+    color:black
+}
+.carta-text1{
+    font-size: 16 px;
+    color:black
+}
 .card {
-    background: #fff;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    border-radius: 8px;
+    background: #bb8585;
+    box-shadow: 0 0 10px rgba(102, 1, 89, 0.384);
+    border-radius: 10px;
 }
 
 .card-body {
-    padding: 20px;
+    padding: 40px;
 }
 
 .card-text {
-    font-size: 14px;
+    font-size: 18px;
 }
 
 .card-img-top {
+    width: 100%;
+    height: auto; 
+    aspect-ratio: 16/9; 
+    object-fit: cover; 
     border-top-left-radius: 8px;
     border-top-right-radius: 8px;
+
 }
 
 .Malbec {
-    border: 3px solid #6c757d;
+    border: 3px solid #32043b70;
     box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
 }
 
 .CabernetFranc {
-    border: 3px solid #6c757d;
+    border: 3px solid #32043b70;
     box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
 }
 
 .CabernetSauvignon {
-    border: 3px solid #6c757d;
+    border: 3px solid #32043b70;
     box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
 
 }
 
 .PinotNoir {
-    border: 3px solid #6c757d;
+    border: 3px solid #32043b70;
     box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
 
 }
 
 .Chardonnay {
-    border: 3px solid #6c757d;
+    border: 3px solid #32043b70;
     box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
 }
 
 .PinotGrigrio {
-    border: 3px solid #6c757d;
+    border: 3px solid #32043b70;
     box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
 }
 
 .SauvignonBlanc {
-    border: 3px solid #6c757d;
+    border: 3px solid #32043b70;
     box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
 }
 
 .bonarda {
-    border: 3px solid #6c757d;
+    border: 3px solid #32043b70;
     box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
 }
 
