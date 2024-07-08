@@ -1,0 +1,106 @@
+* {
+  padding: 0%;
+  margin: 0;
+  box-sizing: border-box 0;
+}
+*::-moz-selection {
+  background-color: black;
+  color: rgb(180, 21, 61);
+}
+*::selection {
+  background-color: black;
+  color: rgb(180, 21, 61);
+}
+
+.navbar-brand {
+  color: rgb(180, 21, 61);
+  text-shadow: 2px 2px 4px rgba(56, 3, 19, 0.726);
+  font-size: 35px;
+  display: flex;
+  align-items: center;
+}
+.navbar-brand i {
+  margin-right: 10px;
+}
+
+.imagen-principal {
+  background-image: url("../img/imagenprincipal.avif");
+  height: 70vh;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.imagen-principal h2 {
+  color: rgb(255, 255, 255);
+  background-color: rgba(0, 0, 0, 0.212);
+  text-shadow: 2px 2px 4px rgba(3, 3, 3, 0.986);
+  font-size: 35px;
+  padding: 10px;
+  max-width: 600px;
+  border-radius: 10px;
+  border: 2px solid rgba(255, 255, 255, 0.082);
+  position: absolute;
+}
+
+.custom-card {
+  max-width: 940px;
+  margin-left: 20px;
+}
+
+.cartabody1 {
+  background-color: #555;
+  box-shadow: #b4153d;
+  border-radius: 10%;
+}
+.cartabody1 .carta-title {
+  margin-top: 20px;
+}
+.cartabody1 .carta-text1 {
+  margin-top: 10px;
+}
+
+.historia {
+  background-color: rgba(255, 255, 255, 0.7882352941);
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.historia p {
+  color: #666;
+  margin-bottom: 15px;
+}
+.historia .historiaargentina {
+  color: #b4153d;
+  margin-bottom: 15px;
+}
+.historia h5 {
+  color: #555;
+  margin-top: 30px;
+  margin-bottom: 0;
+}
+
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 40px 0;
+  text-align: center;
+  position: absolute;
+  width: 100%;
+  display: flex;
+}
+.footer p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+body {
+  background-color: rgb(51, 45, 45);
+}
+
+h2, h3, h4, h5 {
+  color: #5e0909;
+  margin-top: 20px;
+}/*# sourceMappingURL=main.css.map */
