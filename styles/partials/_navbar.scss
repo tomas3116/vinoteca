@@ -1,0 +1,11 @@
+.navbar-brand {
+    color: rgb(180, 21, 61);
+    text-shadow: 2px 2px 4px rgba(56, 3, 19, 0.726);
+    font-size: 35px;
+    display: flex;
+    align-items: center;
+
+    i {
+        margin-right: 10px; // Espacio entre el icono y el texto
+    }
+}

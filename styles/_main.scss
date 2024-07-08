@@ -1,0 +1,15 @@
+@import "./partials/reset";
+@import "./partials/variables";
+@import "./partials/main";
+@import "./partials/navbar";
+@import "./partials/section";
+@import "./partials/card";
+@import "./partials/history";
+@import "./partials/footer";
+body {
+    background-color: rgb(51, 45, 45);
+}
+h2, h3, h4, h5 {
+    color: #464141; 
+    margin-top: 20px;
+}
