@@ -1,13 +1,36 @@
-@import "./partials/reset";
-@import "./partials/navbar";
-@import "./partials/section";
-@import "./partials/card";
-@import "./partials/history";
-@import "./partials/footer";
+// main.scss
+
+// Importes de archivos parciales
+@import "partials/reset";
+@import "partials/navbar";
+@import "partials/section";
+@import "partials/history";
+@import "partials/footer";
+
+// Variables Sass
+$background-color: #f8f9fa;
+$primary-color: #5e0909;
+$shadow-color: rgba(0, 0, 0, 0.56);
+$card-hover-increment: 10px;
+
+// Importamos _cards.scss para los estilos de las cartas
+@import "partials/cards";
+
+// Estilos generales
 body {
-    background-color: rgb(51, 45, 45);
+    font-family: Arial, sans-serif;
+    background-color: $background-color;
+    color: #333;
 }
-h2, h3, h4, h5 {
-    color: #5e0909; 
-    margin-top: 20px;
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+
+.cepas {
+    h3 {
+        text-shadow: 0 0 10px black; // Sombra negra al texto
+    }
 }
