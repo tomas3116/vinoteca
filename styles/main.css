@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   padding: 0%;
   margin: 0;
@@ -126,6 +127,7 @@ body {
   text-shadow: 0 0 10px black;
 }
 
+/* Estilo para el título principal */
 .h2s {
   text-align: center;
   text-decoration: underline;
@@ -133,8 +135,9 @@ body {
   cursor: pointer;
   transition: color 0.3s ease, text-shadow 0.3s ease;
 }
+
 .h2s:hover {
-  color: #7c2529;
+  color: #7c2529; /* Color vino tinto */
   text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.8);
 }
 
@@ -162,37 +165,23 @@ body {
   border-radius: 50%;
   margin: 0 5px;
 }
-.container .row:nth-child(even) .col-md-6 {
-  order: 2;
+.container .row .col-md-6 {
   text-align: left;
   padding: 20px;
   background-color: #fff;
   border-radius: 8px;
   box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
 }
-.container .row:nth-child(even) .col-md-6 img {
-  width: 300px;
+.container .row .col-md-6 img {
+  width: 100%;
   height: auto;
   border-radius: 8px;
+  display: block;
 }
 .container .row:nth-child(even) .col-md-6 {
-  order: 1;
-  padding: 20px;
-}
-.container .row:nth-child(odd) .col-md-6 {
-  order: 1;
-  text-align: left;
-  padding: 20px;
-  background-color: #fff;
-  border-radius: 8px;
-  box-shadow: rgba(0, 0, 0, 0.15) -1.95px 1.95px 2.6px;
-}
-.container .row:nth-child(odd) .col-md-6 img {
-  max-width: 100%;
-  height: auto;
-  border-radius: 8px;
-}
-.container .row:nth-child(odd) .col-md-6 {
   order: 2;
-  padding: 20px;
+}
+.container .row:nth-child(odd) .col-md-6 {
+  box-shadow: rgba(0, 0, 0, 0.15) -1.95px 1.95px 2.6px;
+  order: 1;
 }/*# sourceMappingURL=main.css.map */
