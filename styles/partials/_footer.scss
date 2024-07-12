@@ -1,15 +1,20 @@
 .footer {
-    background-color: #333; 
-    color: #fff; 
-    padding: 40px 0; 
-    text-align: center; 
-    position: absolute; 
-    width: 100%; 
-    display: flex;
-
+    background-color: #2a2a2b; /* Color de fondo del footer */
+    padding: 20px 0; /* Espaciado interior del footer */
+    text-align: center; /* Alinea el texto al centro */
+    position: relative; /* Fija el footer en la parte inferior de la ventana */
+    width: 100%; /* Ocupa todo el ancho disponible */
+    bottom: 0;
+    left: 0;
     p {
-        display: flex;
-        align-items: center;
-        justify-content: center;
+        margin: 5px 0; /* Espaciado entre los párrafos */
+        color: #fafaea; /* Color de texto */
     }
+}
+
+.containerfooter {
+    position: relative;
+    min-width: 100%; /* Tamaño máximo del contenido del footer */
+    margin: 0 auto; /* Centra el contenido */
+    padding: 20px; /* Espaciado interno del contenedor del footer */
 }
