@@ -1,0 +1,30 @@
+.clearfix {
+    background-color: #f8f9fa; // Color de fondo suave
+    padding: 20px; // Espaciado interior
+    max-width: 800px; // Ancho máximo
+    margin: 20px auto; // Centrar el contenedor
+    border-radius: 8px; // Bordes redondeados
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); // Sombra
+
+    img {
+        border-radius: 8px; // Bordes redondeados
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); // Sombra
+        max-width: 100%; // Asegura que la imagen no exceda el contenedor
+    }
+
+    h2 {
+        color: #7c2529; // Color del texto
+        font-family: 'Georgia', serif; // Fuente
+        margin-top: 20px; // Espacio arriba
+        text-align: center; // Centrar texto
+    }
+
+    p {
+        font-family: 'Arial', sans-serif; // Fuente
+        font-size: 16px; // Tamaño de texto
+        line-height: 1.5; // Altura de línea
+        margin-bottom: 15px; // Espacio entre párrafos
+        color: #333; // Color del texto
+        text-align: justify; // Justificar texto
+    }
+}
