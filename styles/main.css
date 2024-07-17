@@ -2,7 +2,7 @@
 * {
   padding: 0%;
   margin: 0;
-  box-sizing: border-box 0;
+  box-sizing: border-box;
 }
 *::-moz-selection {
   background-color: black;
@@ -52,7 +52,7 @@
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 .historia p {
-  color: #666;
+  color: #555;
   margin-bottom: 15px;
 }
 .historia .historiaargentina {
@@ -99,7 +99,7 @@
 .bodyprov {
   position: relative;
   -o-object-fit: cover;
-     object-fit: cover; /* Ajusta la imagen para cubrir el contenedor */
+     object-fit: cover;
   background-size: auto;
   background-position: center center;
   pointer-events: none;
@@ -111,27 +111,37 @@
   padding-bottom: 100px;
 }
 
-.section {
-  padding: 40px;
-}
-
-.h2s {
-  text-align: center;
-  justify-items: center;
-  text-decoration: underline;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-  cursor: pointer;
-  transition: color 0.3s ease, text-shadow 0.3s ease;
-  background-color: rgba(189, 173, 141, 0.8); /* Beige transparente */
-  padding: 40px;
+.clearfix {
+  background-color: #f8f9fa;
+  padding: 20px;
+  max-width: 800px;
+  margin: 20px auto;
   border-radius: 8px;
-  margin: 20px auto; /* Centra horizontalmente */
-  max-width: 80%; /* Limita el ancho máximo */
-  color: #2b2323; /* Color de texto */
+  box-shadow: rgba(90, 11, 11, 0.24) 0px 3px 8px;
+  transition: transform 0.3s ease-in-out;
 }
-.h2s:hover {
-  color: #7c2529; /* Color vino tinto */
-  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.8);
+.clearfix:hover {
+  transform: scale(1.02);
+  background-color: rgba(253, 252, 248, 0.6862745098);
+}
+.clearfix img {
+  border-radius: 8px;
+  box-shadow: rgba(90, 11, 11, 0.24) 0px 3px 8px;
+  max-width: 100%;
+}
+.clearfix h2 {
+  color: #5a0b0b;
+  font-family: "Georgia", serif;
+  margin-top: 20px;
+  text-align: center;
+}
+.clearfix p {
+  font-family: "Arial", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 15px;
+  color: #020202;
+  text-align: justify;
 }
 
 .footer {
@@ -155,16 +165,38 @@
   padding: 20px; /* Espaciado interno del contenedor del footer */
 }
 
-body {
-  font-family: Arial, sans-serif;
-  background-color: #f8f9fa;
-  color: #333;
-}
-
 .cepas h3 {
   text-shadow: 0 0 10px black;
   padding: 40px;
   display: flex;
   text-align: center;
   justify-content: center;
+}
+
+.h2s {
+  text-align: center;
+  justify-items: center;
+  text-decoration: underline;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+  transition: color 0.3s ease, text-shadow 0.3s ease;
+  background-color: rgba(189, 173, 141, 0.8);
+  padding: 40px;
+  border-radius: 8px;
+  margin: 20px auto;
+  max-width: 80%;
+  color: #2b2323;
+}
+.h2s:hover {
+  color: #7c2529;
+  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.8);
+}
+
+@media (max-width: 768px) {
+  .card-container {
+    grid-template-columns: 1fr;
+  }
+  .card-container .card {
+    margin-bottom: 20px;
+  }
 }/*# sourceMappingURL=main.css.map */
