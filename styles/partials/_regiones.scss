@@ -2,7 +2,7 @@ $cabernet-color: #800000; // Color de vino tinto
 $gradient-end: #000000; // Color negro para degradado
 
 .cajageneral {
-    background-color: rgba(255, 255, 255, 0.8); 
+    background-color: rgba(255, 255, 255, 0.8); // Fondo blanco con transparencia
     padding: 20px;
 
     h2 {
@@ -10,6 +10,7 @@ $gradient-end: #000000; // Color negro para degradado
         font-family: 'Playfair Display', serif;
         background: linear-gradient(to bottom, $cabernet-color, $gradient-end);
         -webkit-background-clip: text;
+        background-clip: text; 
         -webkit-text-fill-color: transparent;
         text-align: center;
         margin-bottom: 50px;
@@ -27,10 +28,12 @@ $gradient-end: #000000; // Color negro para degradado
         font-family: 'Playfair Display', serif;
         background: linear-gradient(to bottom, $cabernet-color, $gradient-end);
         -webkit-background-clip: text;
+        background-clip: text; 
         -webkit-text-fill-color: transparent;
         text-align: center;
-        margin: 40px 0; // Espaciado superior e inferior
-        padding-top: 20px; 
+        margin-bottom: 50px;
+        padding-top: 40px;
+        position: relative;
 
         .fa-grapes, .fa-wine-bottle {
             margin: 0 10px;
