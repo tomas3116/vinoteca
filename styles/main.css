@@ -21,7 +21,23 @@
   align-items: center;
 }
 .navbar-brand i {
+  font-size: 2.5rem;
   margin-right: 10px;
+  color: #c8102e;
+}
+
+h1.navbar-brand {
+  color: #c8102e;
+  background: linear-gradient(90deg, #c8102e, #a00025);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: "Garamond", serif;
+  font-size: 2rem;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+h1.navbar-brand:hover {
+  transform: scale(1.05);
+  color: #a00025;
 }
 
 .imagen-principal {
@@ -226,19 +242,6 @@ body {
   padding: 20px;
 }
 
-h1 {
-  text-align: center;
-  margin-bottom: 40px;
-  font-size: 3rem;
-  font-family: "Garamond", serif;
-  background: linear-gradient(120deg, #c8102e, #333);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background: linear-gradient(120deg, #c8102e 30%, #333 90%);
-  -webkit-text-fill-color: transparent;
-  letter-spacing: 2px;
-}
-
 .wine-pairing {
   display: flex;
   flex-wrap: wrap;
@@ -274,7 +277,7 @@ h1 {
 }
 
 .wine-item h2 {
-  background: linear-gradient(120deg, #c8102e, #333);
+  background: linear-gradient(90deg, #c8102e, #333);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-size: 1.6rem;
@@ -283,7 +286,7 @@ h1 {
 }
 
 .wine-item p {
-  color: #666;
+  color: #333;
   margin-bottom: 10px;
   font-size: 0.9rem;
   line-height: 1.5;
@@ -294,6 +297,27 @@ h1 {
     flex: 1 1 100%;
   }
 }
+h1.navbar-brand {
+  color: #c8102e;
+  background: linear-gradient(90deg, #c8102e, #a00025);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: "Garamond", serif;
+  font-size: 2.5rem;
+  display: flex;
+  align-items: center;
+  transition: color 0.4s ease, transform 0.4s ease;
+}
+h1.navbar-brand i {
+  font-size: 2.5rem;
+  margin-right: 10px;
+  color: #c8102e;
+}
+h1.navbar-brand:hover {
+  color: #a00025;
+  transform: scale(1.05);
+}
+
 .cepas h3 {
   text-shadow: 0 0 10px black;
   padding: 40px;
