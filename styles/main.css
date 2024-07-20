@@ -235,7 +235,6 @@ h1 {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background: linear-gradient(120deg, #c8102e 30%, #333 90%);
-  -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   letter-spacing: 2px;
 }

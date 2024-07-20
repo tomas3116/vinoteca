@@ -46,8 +46,7 @@ h1 {
     font-family: $font-title;
     @include gradient-text($wine-red, $dark-grey);
     background: linear-gradient(120deg, $wine-red 30%, $dark-grey 90%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+   -webkit-text-fill-color: transparent;
     letter-spacing: 2px; // Espaciado de letras para una apariencia más elegante
 }
 
