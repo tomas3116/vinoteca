@@ -96,19 +96,11 @@
   }
 }
 
-.bodyprov {
-  position: relative;
-  -o-object-fit: cover;
-     object-fit: cover;
-  background-size: auto;
-  background-position: center center;
-  pointer-events: none;
-  background-repeat: repeat-x;
-  display: grid;
-  min-height: 100%;
-  grid-template-rows: auto 1fr auto;
-  z-index: -1;
-  padding-bottom: 100px;
+body {
+  background-image: url("../img/uvasfondo.avif") !important;
+  background-repeat: repeat !important;
+  background-size: 150px auto !important; /* Ajusta según sea necesario */
+  background-position: top left !important;
 }
 
 .clearfix {
@@ -165,67 +157,62 @@
   padding: 20px; /* Espaciado interno del contenedor del footer */
 }
 
-.cajageneral {
+.container-general .region {
   background-color: rgba(255, 255, 255, 0.8);
-  padding: 20px;
+  box-shadow: rgba(135, 0, 0, 0.8) 0px 5px, rgba(135, 0, 0, 0.6) 0px 10px, rgba(135, 0, 0, 0.4) 0px 15px, rgba(135, 0, 0, 0.2) 0px 20px, rgba(135, 0, 0, 0.1) 0px 25px;
+  border-radius: 8px;
+  padding: 1rem;
+  margin-bottom: 2rem;
+  transition: all 0.3s ease;
+  /* styles.css o el archivo CSS generado */
 }
-.cajageneral h2 {
-  color: #800000;
-  font-family: "Playfair Display", serif;
-  background: linear-gradient(to bottom, #800000, #000000);
-  -webkit-background-clip: text;
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
-  text-align: center;
-  margin-bottom: 50px;
-  padding-top: 40px;
-  position: relative;
+.container-general .region:hover {
+  box-shadow: rgba(135, 0, 0, 0.8) 0px 10px, rgba(135, 0, 0, 0.6) 0px 15px, rgba(135, 0, 0, 0.4) 0px 20px, rgba(135, 0, 0, 0.2) 0px 25px, rgba(135, 0, 0, 0.1) 0px 30px;
+  transform: scale(1.05);
 }
-.cajageneral h2 .fa-grapes, .cajageneral h2 .fa-wine-bottle {
-  margin: 0 10px;
-  color: #800000;
-}
-.cajageneral h3 {
-  color: #800000;
-  font-family: "Playfair Display", serif;
-  background: linear-gradient(to bottom, #800000, #000000);
-  -webkit-background-clip: text;
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
-  text-align: center;
-  margin-bottom: 50px;
-  padding-top: 40px;
-  position: relative;
-}
-.cajageneral h3 .fa-grapes, .cajageneral h3 .fa-wine-bottle {
-  margin: 0 10px;
-  color: #800000;
-}
-.cajageneral .row {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-.cajageneral .row .card {
-  background-color: rgba(238, 229, 229, 0.8);
-  box-shadow: rgba(128, 0, 0, 0.45) 0px 25px 20px -20px;
-  border: none;
-  margin: 10px;
-}
-.cajageneral .row .card .card-img-top {
+.container-general .region img {
   width: 100%;
-  height: 200px;
+  max-width: 500px;
+  height: auto;
   -o-object-fit: cover;
      object-fit: cover;
+  margin-bottom: 1rem;
 }
-.cajageneral .row .card .card-body h5.h5s {
-  color: #800000;
-  font-family: "Playfair Display", serif;
+.container-general .region .h2ss {
+  font-family: "Roboto", sans-serif;
+  font-size: 2.5rem;
+  font-weight: 700;
+  background: linear-gradient(135deg, #ff4c8b, #1e1e1e, #e6007e);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.6);
+  transition: all 0.4s ease-in-out;
+  padding: 20px;
+  margin: 30px 0;
+  color: #6d28d9;
 }
-.cajageneral .row .card .card-body .card-text {
-  font-size: 14px;
+.container-general .region .h2ss:hover {
+  background: linear-gradient(135deg, #ff4c8b, #2d2d2d, #e6007e);
+  transform: scale(1.05);
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8);
+}
+.container-general .region h3 {
+  background: linear-gradient(to bottom, #C8102E, #000000);
+  -webkit-text-fill-color: transparent;
+  font-family: "Your Elegant Font", sans-serif;
+  font-size: 1.5rem;
+}
+.container-general .region p {
+  font-weight: bold;
 }
 
+@media (max-width: 768px) {
+  .container-general .region img {
+    width: 100%;
+    max-width: none;
+  }
+}
 .cepas h3 {
   text-shadow: 0 0 10px black;
   padding: 40px;
@@ -260,4 +247,23 @@
   .card-container .card {
     margin-bottom: 20px;
   }
+}
+.h2ss {
+  font-family: "Roboto", sans-serif;
+  font-size: 2.5rem;
+  font-weight: 700;
+  background: linear-gradient(135deg, #ff4c8b, #1e1e1e, #e6007e);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.6);
+  transition: all 0.4s ease-in-out;
+  padding: 20px;
+  margin: 30px 0;
+  color: #C8102E;
+}
+.h2ss:hover {
+  background: linear-gradient(135deg, #ff4c8b, #2d2d2d, #e6007e);
+  transform: scale(1.05);
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8);
 }/*# sourceMappingURL=main.css.map */

@@ -46,3 +46,27 @@
     margin-bottom: 20px;
   }
 }
+$color-bordeaux: #C8102E;
+
+// Estilo para h2ss
+.h2ss {
+    font-family: 'Roboto', sans-serif;
+    font-size: 2.5rem;
+    font-weight: 700;
+    background: linear-gradient(135deg, #ff4c8b, #1e1e1e, #e6007e);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.6);
+    transition: all 0.4s ease-in-out;
+    padding: 20px;
+    margin: 30px 0;
+    color: $color-bordeaux;
+
+    &:hover {
+        background: linear-gradient(135deg, #ff4c8b, #2d2d2d, #e6007e);
+        transform: scale(1.05);
+        text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8);
+    }
+}
