@@ -60,6 +60,39 @@ h1.navbar-brand:hover {
   position: absolute;
 }
 
+section {
+  padding: 20px;
+}
+section .custom-card {
+  background-color: rgba(255, 255, 255, 0.8);
+  box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+section .custom-card .row {
+  display: flex;
+  align-items: center;
+}
+section .custom-card .custom-img {
+  max-width: 100%;
+  border-radius: 10px 0 0 10px;
+}
+section .custom-card .cartabody1 {
+  padding: 20px;
+}
+section .custom-card .cartabody1 .carta-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  background: linear-gradient(90deg, rgb(133, 38, 26) 0%, rgb(0, 0, 0) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+section .custom-card .cartabody1 .carta-text1 {
+  font-size: 1rem;
+  font-weight: bold;
+  color: rgb(133, 38, 26);
+}
+
 .historia {
   background-color: rgba(255, 255, 255, 0.7882352941);
   padding: 20px;
@@ -173,12 +206,22 @@ body {
   padding: 20px; /* Espaciado interno del contenedor del footer */
 }
 
-.caja {
-  margin: 5rem 0;
-  background-color: #fff;
+.h2ss {
+  display: grid;
+  text-align: center;
+  justify-content: center;
+  color: #8B0000;
 }
 
-h3 {
+.caja {
+  margin: 5rem 0;
+  background-color: rgba(255, 255, 255, 0.3215686275);
+}
+
+.container-general {
+  position: relative;
+}
+.container-general h3 {
   font-family: "Garamond", serif;
   font-size: 1.75rem;
   color: #8B0000;
@@ -187,14 +230,10 @@ h3 {
   text-align: center;
   transition: color 0.3s ease;
 }
-
-.container-general {
-  position: relative;
-}
 .container-general .region {
   display: flex;
   align-items: flex-start;
-  background-color: #fff;
+  background-color: rgba(255, 255, 255, 0.337254902);
   padding: 1.5rem;
   border-radius: 8px;
   box-shadow: rgba(135, 28, 25, 0.4) 0px 5px, rgba(135, 28, 25, 0.3) 0px 10px, rgba(135, 28, 25, 0.2) 0px 15px, rgba(135, 28, 25, 0.1) 0px 20px, rgba(135, 28, 25, 0.05) 0px 25px;
@@ -230,6 +269,13 @@ body {
   width: 80%;
   margin: auto;
   padding: 20px;
+}
+.container .x {
+  text-align: center;
+  font-weight: bold;
+  font-size: 2.5em; /* Tamaño ajustable según preferencias */
+  color: #800020; /* Bordeaux */
+  font-family: "Georgia", serif; /* Tipografía elegante */
 }
 
 .wine-pairing {

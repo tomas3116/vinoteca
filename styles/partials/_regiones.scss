@@ -1,11 +1,22 @@
 // Definición de la variable para el color burdeos
 $bordo-fluor: #8B0000; // Ajusta el código hexadecimal al color exacto que desees
 
+.h2ss{
+    display: grid;
+    text-align: center;
+    justify-content: center;
+    color: #8B0000;
+}
 .caja {
   margin: 5rem 0; // Espaciado externo general
-  background-color: #fff;
+  background-color: #ffffff52;
 }
-h3 {
+
+.container-general {
+  position: relative; // Para manejar la posición del <h3>
+  
+  // Estilos del <h3> dentro del contenedor
+  h3 {
     font-family: 'Garamond', serif;
     font-size: 1.75rem; // Tamaño de fuente más grande
     color: $bordo-fluor; // Color burdeos
@@ -14,15 +25,11 @@ h3 {
     text-align: center; // Centra el texto
     transition: color 0.3s ease; // Transición de color
   }
-
-.container-general {
-  position: relative;
- 
   
   .region {
     display: flex;
     align-items: flex-start; // Alinea los elementos en el contenedor
-    background-color: #fff; // Fondo blanco para la tarjeta
+    background-color: #ffffff56; // Fondo blanco para la tarjeta
     padding: 1.5rem;
     border-radius: 8px;
     box-shadow: rgba(135, 28, 25, 0.4) 0px 5px, rgba(135, 28, 25, 0.3) 0px 10px, rgba(135, 28, 25, 0.2) 0px 15px, rgba(135, 28, 25, 0.1) 0px 20px, rgba(135, 28, 25, 0.05) 0px 25px; // Efecto de sombra con escala de burdeos a negro
