@@ -173,62 +173,52 @@ body {
   padding: 20px; /* Espaciado interno del contenedor del footer */
 }
 
-.container-general .region {
-  background-color: rgba(255, 255, 255, 0.8);
-  box-shadow: rgba(135, 0, 0, 0.8) 0px 5px, rgba(135, 0, 0, 0.6) 0px 10px, rgba(135, 0, 0, 0.4) 0px 15px, rgba(135, 0, 0, 0.2) 0px 20px, rgba(135, 0, 0, 0.1) 0px 25px;
-  border-radius: 8px;
-  padding: 1rem;
-  margin-bottom: 2rem;
-  transition: all 0.3s ease;
-  /* styles.css o el archivo CSS generado */
-}
-.container-general .region:hover {
-  box-shadow: rgba(135, 0, 0, 0.8) 0px 10px, rgba(135, 0, 0, 0.6) 0px 15px, rgba(135, 0, 0, 0.4) 0px 20px, rgba(135, 0, 0, 0.2) 0px 25px, rgba(135, 0, 0, 0.1) 0px 30px;
-  transform: scale(1.05);
-}
-.container-general .region img {
-  width: 100%;
-  max-width: 500px;
-  height: auto;
-  -o-object-fit: cover;
-     object-fit: cover;
-  margin-bottom: 1rem;
-}
-.container-general .region .h2ss {
-  font-family: "Roboto", sans-serif;
-  font-size: 2.5rem;
-  font-weight: 700;
-  background: linear-gradient(135deg, #ff4c8b, #1e1e1e, #e6007e);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.6);
-  transition: all 0.4s ease-in-out;
-  padding: 20px;
-  margin: 30px 0;
-  color: #6d28d9;
-}
-.container-general .region .h2ss:hover {
-  background: linear-gradient(135deg, #ff4c8b, #2d2d2d, #e6007e);
-  transform: scale(1.05);
-  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8);
-}
-.container-general .region h3 {
-  background: linear-gradient(to bottom, #C8102E, #000000);
-  -webkit-text-fill-color: transparent;
-  font-family: "Your Elegant Font", sans-serif;
-  font-size: 1.5rem;
-}
-.container-general .region p {
-  font-weight: bold;
+.caja {
+  margin: 5rem 0;
+  background-color: #fff;
 }
 
-@media (max-width: 768px) {
-  .container-general .region img {
-    width: 100%;
-    max-width: none;
-  }
+h3 {
+  font-family: "Garamond", serif;
+  font-size: 1.75rem;
+  color: #8B0000;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+  margin-bottom: 1rem;
+  text-align: center;
+  transition: color 0.3s ease;
 }
+
+.container-general {
+  position: relative;
+}
+.container-general .region {
+  display: flex;
+  align-items: flex-start;
+  background-color: #fff;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: rgba(135, 28, 25, 0.4) 0px 5px, rgba(135, 28, 25, 0.3) 0px 10px, rgba(135, 28, 25, 0.2) 0px 15px, rgba(135, 28, 25, 0.1) 0px 20px, rgba(135, 28, 25, 0.05) 0px 25px;
+  transition: box-shadow 0.3s ease;
+}
+.container-general .region:hover {
+  box-shadow: rgba(135, 28, 25, 0.6) 0px 10px, rgba(135, 28, 25, 0.5) 0px 20px, rgba(135, 28, 25, 0.4) 0px 30px, rgba(135, 28, 25, 0.3) 0px 40px, rgba(135, 28, 25, 0.2) 0px 50px;
+}
+.container-general .region img {
+  width: 50%;
+  max-width: 500px;
+  height: auto;
+  border-radius: 8px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.container-general .region p {
+  font-size: 1.125rem;
+  font-weight: bold;
+  margin-left: 1rem;
+  flex: 1;
+  line-height: 1.6;
+}
+
 body {
   font-family: "Arial", sans-serif;
   background-color: #f4f4f4;
