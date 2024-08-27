@@ -1,0 +1,36 @@
+$color-bordeaux: #C8102E;
+$color-light: #F4F4F4;
+$color-dark: #333;
+
+#simulador {
+    background-color: $color-light;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.btn-bordeaux {
+    background-color: $color-bordeaux;
+    color: #fff;
+    border: none;
+    &:hover {
+        background-color: darken($color-bordeaux, 10%);
+    }
+}
+
+.formulario-simulador {
+    .form-label {
+        color: $color-dark;
+    }
+
+    .form-control {
+        border: 1px solid $color-dark;
+    }
+}
+
+#resultado {
+    background-color: $color-light;
+    padding: 10px;
+    border: 1px solid $color-dark;
+    border-radius: 5px;
+}
